@@ -1,0 +1,43 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add http-proxy express-js
+
+PATH: 
+  C:\Users\Obadias Pelembe\AppData\Local\cloud-code\installer\google-cloud-sdk\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Android\Android Studio\jre\bin;C:\xampp\php;C:\composer;C:\Program Files (x86)\Ngrok;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Obadias Pelembe\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\PuTTY\;C:\Users\Obadias Pelembe\apps\sonar-scanner-cli-4.7.0.2747-windows\sonar-scanner-4.7.0.2747-windows\bin;C:\Program Files\dotnet\;C:\Users\Obadias Pelembe\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Obadias Pelembe\AppData\Local\Programs\Python\Python310\;C:\Users\Obadias Pelembe\AppData\Local\Microsoft\WindowsApps;C:\Users\Obadias Pelembe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\Obadias Pelembe\AppData\Roaming\Composer\vendor\bin;C:\Users\Obadias Pelembe\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Obadias Pelembe\AppData\Local\Yarn\bin;C:\Users\Obadias Pelembe\AppData\Local\JetBrains\Toolbox\scripts;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  12.22.12
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/express-js: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66145:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140890:22)
+      at Request.emit (events.js:314:20)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141862:10)
+      at Request.emit (events.js:314:20)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (events.js:420:28)
+      at IncomingMessage.emit (events.js:326:22)
+      at endReadableNT (_stream_readable.js:1241:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "api_gwt",
+    "version": "1.0.0",
+    "description": "Reverse Proxy for NGO modules",
+    "main": "src/index.js",
+    "author": "Obadias Pelembe",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
