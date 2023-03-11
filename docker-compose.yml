@@ -1,0 +1,10 @@
+services:
+  
+  api_gwt:
+    build: api_gwt
+
+  web:
+    build: network_layer
+    ports:
+      - 80:80
+      - 8080:8080
