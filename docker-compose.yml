@@ -8,3 +8,11 @@ services:
     ports:
       - 80:80
       - 8080:8080
+
+  m_reports:
+    build: 
+      context: ./modules/reports
+
+  m_custom_fields:
+    build: 
+      context: ./modules/custom_fields
