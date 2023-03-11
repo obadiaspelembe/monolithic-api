@@ -14,6 +14,5 @@ services:
       context: ./modules/reports
 
   m_custom_fields:
-    image: m_custom_fields
-    # build: 
-    #   context: ./modules/custom_fields
+    build: 
+      context: ./modules/custom_fields
