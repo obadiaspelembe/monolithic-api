@@ -1,0 +1,15 @@
+{
+  "name": "api_gwt",
+  "version": "1.0.0",
+  "description": "Reverse Proxy for NGO modules",
+  "main": "index.js",
+  "author": "Obadias Pelembe",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2", 
+    "http-proxy": "^1.18.1"
+  }
+}
