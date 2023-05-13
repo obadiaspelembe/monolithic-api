@@ -1,7 +1,7 @@
 {
   "name": "api_gwt",
   "version": "1.0.0",
-  "description": "Reverse Proxy for NGO modules",
+  "description": "Reverse Proxy for Service Mesh modules",
   "main": "index.js",
   "author": "Obadias Pelembe",
   "license": "MIT",

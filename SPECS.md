@@ -1,4 +1,4 @@
-# NGO network 
+# Service Mesh network 
 
 This projects intends to simulate a docker-compose network composite application where there're one api-gateway that proxies all comunitcation to an nginx service mesh.
 
