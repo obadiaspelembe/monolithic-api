@@ -1,0 +1,20 @@
+{
+    "openApiFile": "OpenAPI.yaml",
+    "services": [
+        {
+            "service": "M_CUSTOM_FIELDS",
+            "service_endpoint": "http://web:8081",
+            "routing_prefix": "/m_custom_fields"
+        },
+        {
+            "service": "PET",
+            "service_endpoint": "http://web:8081",
+            "routing_prefix": "/pet"
+        },
+        {
+            "service": "M_REPORTS",
+            "service_endpoint": "http://web:8082",
+            "routing_prefix": "/m_reports"
+        }
+    ]
+}
