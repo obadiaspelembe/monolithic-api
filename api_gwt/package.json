@@ -1,7 +1,7 @@
 {
   "name": "api_gwt",
   "version": "1.0.0",
-  "description": "Reverse Proxy for NGO modules",
+  "description": "Reverse Proxy for Service Mesh modules",
   "main": "index.js",
   "author": "Obadias Pelembe",
   "license": "MIT",
@@ -9,7 +9,10 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.18.2", 
-    "http-proxy": "^1.18.1"
+    "express": "^4.18.2",
+    "http-proxy": "^1.18.1",
+    "js-yaml": "^4.1.0",
+    "express-openapi-validator": "^5.0.4",
+    "matchstick": "1.2.1"
   }
 }
