@@ -1,18 +1,23 @@
 services:
   
+  # API GATEWAY SERVICE | REVERSE PROXY
   api_gwt:
     build: api_gwt
 
+# LOAD BALANCER
   web:
     build: network_layer
     ports:
-      - 80:80
       - 8080:8080
 
+    # google.com
+
+# CORE REPORT MODULE
   m_reports:
     build: 
       context: ./modules/reports
 
-  m_custom_fields:
+# CORE AND FUNCTIONS
+  core:
     build: 
-      context: ./modules/custom_fields
+      context: ./modules/core

@@ -1,8 +1,7 @@
 var express = require('express');
 const CONFIG = require('./config.json');
 const yamlProcessor = require("js-yaml");
-const fs = require("fs");
-const OpenApiValidator = require('express-openapi-validator');
+const fs = require("fs"); 
 var matchstick = require('./matchurl');
 
 
@@ -68,6 +67,7 @@ CONFIG.services.forEach(service => {
         apiProxy.web(req, res, { target: service.service_endpoint })
     })
 });
+
 
 
 app.listen(PORT, HOST, () => {

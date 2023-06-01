@@ -2,9 +2,9 @@
     "openApiFile": "OpenAPI.yaml",
     "services": [
         {
-            "service": "M_CUSTOM_FIELDS",
-            "service_endpoint": "http://web:8081",
-            "routing_prefix": "/m_custom_fields"
+            "service": "CORE",
+            "service_endpoint": "http://web:8081", 
+            "routing_prefix": "/core"
         },
         {
             "service": "PET",
